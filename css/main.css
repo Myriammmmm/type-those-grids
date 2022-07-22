@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: red;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
