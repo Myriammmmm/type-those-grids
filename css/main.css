@@ -8,21 +8,33 @@ html {
   box-sizing: inherit;
 }
 
-header {
-
+body {
+  padding-top: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 15rem;
 }
 
 h1 {
   font-size: 1.8rem;
   margin-left: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
   font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
 }
 
 h1, h2 {
   font-style: italic;
+}
+
+p, dl {
+  margin-top: .2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 
 img {
@@ -32,7 +44,7 @@ img {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto 1fr;
   gap: .75rem;
   grid-template-areas:
     "banner banner banner"
@@ -51,4 +63,9 @@ img:first-child, div {
 
 dl dt {
   font-style: italic;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
 }
